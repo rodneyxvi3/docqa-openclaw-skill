@@ -1,0 +1,26 @@
+Security Guide
+
+Password Requirements
+Passwords must be at least twelve characters long and include a mix of
+uppercase letters, lowercase letters, and numbers. Passwords expire every
+one hundred eighty days. Reusing any of your last ten passwords is not
+allowed.
+
+Two-Factor Authentication
+Two-factor authentication is mandatory for all accounts with administrator
+access and optional but strongly recommended for standard user accounts.
+Supported methods are an authenticator app or a hardware security key. SMS
+codes are supported only as a fallback method.
+
+Reporting a Security Incident
+If you suspect a security incident, such as a lost device, a phishing
+email, or unauthorized account access, email security@example.com
+immediately or use the "Report Incident" button in the admin console. Do
+not wait for confirmation before reporting a suspected issue; the security
+team would rather investigate a false alarm than miss a real one.
+
+Data Retention
+Customer data is retained for the length of the active subscription plus
+thirty days after cancellation, after which it is permanently deleted from
+production systems. Backups are retained for an additional ninety days
+before secure deletion.

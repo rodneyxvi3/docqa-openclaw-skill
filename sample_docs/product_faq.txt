@@ -1,0 +1,23 @@
+Product FAQ
+
+What plans are available?
+We offer three plans: Starter, Growth, and Enterprise. Starter is free for
+up to two team members. Growth costs 29 dollars per user per month and
+includes unlimited projects and priority email support. Enterprise adds
+single sign-on, an audit log, and a dedicated account manager, with pricing
+available on request.
+
+Does the product support offline use?
+The desktop app caches your most recent workspace and lets you keep editing
+without a connection. Changes sync automatically the next time you're
+online. The mobile app currently requires a connection for all actions.
+
+How do I export my data?
+Go to Settings, then Data Export. You can export your workspace as a CSV,
+JSON, or PDF. Exports larger than 500 megabytes are emailed as a download
+link instead of downloading directly in the browser.
+
+What is the uptime guarantee?
+Growth and Enterprise plans include a 99.9 percent uptime service level
+agreement, credited automatically to your account if we fall short in a
+given month. Starter plan usage is best-effort with no formal SLA.

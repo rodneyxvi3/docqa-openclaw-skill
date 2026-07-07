@@ -93,17 +93,15 @@ demo it.
   same `retrieve.py` interface — the JSON contract to the agent wouldn't
   need to change.
 - **Why the skill doesn't call an LLM itself:** the host agent already is
-  one. Keeping the skill to "retrieval only" means it works with whatever
+  one. Keeping the skill to "retrieval only" means it works with any 
+  model the user has OpenClaw configured with, and keeps the skill's own
+  test surface small and deterministic.
+- **Sparse vectors as plain dicts:** the demo corpus is tiny, so this is
+  simple and fast enough. At real scale you'd want a proper sparse matrix
+  (scipy) or an actual vector index (FAISS/sqlite-vec).
 
 <img width="912" height="432" alt="image" src="https://github.com/user-attachments/assets/9ed59139-c3a8-4473-8969-98b409d67068" />
 
 <img width="912" height="674" alt="image" src="https://github.com/user-attachments/assets/abe583c6-8094-4f81-b9d9-2d1371a54a21" />
 
 <img width="912" height="278" alt="image" src="https://github.com/user-attachments/assets/ee9dfb9f-8930-4d87-8ce5-1b0ccc272e14" />
-
-
-  model the user has OpenClaw configured with, and keeps the skill's own
-  test surface small and deterministic.
-- **Sparse vectors as plain dicts:** the demo corpus is tiny, so this is
-  simple and fast enough. At real scale you'd want a proper sparse matrix
-  (scipy) or an actual vector index (FAISS/sqlite-vec).
